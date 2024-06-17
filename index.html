@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <section class="heading">
+        <h1>Todo List</h1>
+    </section>
+    <section class="searchTodo">
+         <input id="search" placeholder="search todos">
+    </section>
+    <section class="todoItems">
+          <ul id="options">
+              <li>Go to the grocery
+              <div class="delete">✖</div>
+              </li>
+              <li>Go to the Laundry
+              <div class="delete">✖</div>
+              </li>
+              <li>Go to the gym
+              <div class="delete">✖</div>
+              </li>
+          </ul>
+    </section>
+    <section class="newTodo">
+        <div id="new">Add a new todo...</div>
+        <input id="newTodoItem" placeholder="e.g. Walk the Dog">
+    </section>
+    <section class="end">
+        <button onclick="update()" id="sub">Submit</button>
+    </section>
+    
+</body>
+</html>
